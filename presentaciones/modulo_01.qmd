@@ -1,0 +1,787 @@
+---
+title: Modulo 01
+subtitle: Fundamentos históricos y conceptuales de la IA.
+date: last-modified
+author:
+  - name: Francisco Palm
+    orcid: 0000-0002-1293-0868
+    email: fpalm@qu4nt.com
+    affiliations: UNC, qu4nt
+format:
+  clean-revealjs
+html-math-method:
+  method: mathjax
+  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+lang: es
+lightbox: true
+---
+
+# Introducción a la Inteligencia Artificial
+
+> Módulo 1
+
+## Programa de la Asignatura
+
+- **Módulo 1**: Fundamentos históricos y conceptuales de la IA
+- **Módulo 2**: Paradigmas, Algoritmos y Herramientas Centrales
+- **Módulo 3**: El ciclo de vida de un proyecto de IA y Aplicaciones
+- **Módulo 4**: Implicaciones éticas, sociales y el futuro de la IA
+
+## Evaluaciones
+
+- **Módulo 1**: Prueba escrita – 25%
+- **Módulo 2**: Prueba escrita – 25%
+- **Módulo 3**: Prueba escrita – 25%
+- **Módulo 4**: Proyecto – 25%
+
+# Fundamentos históricos y conceptuales de la IA
+
+### Concepto de Inteligencia
+
+---
+
+## Concepto de Inteligencia
+
+**Inteligencia** – del latín *intelligentia* o *intellectus*, que significa comprender o percibir.
+
+---
+
+## Definiciones de Inteligencia 1
+
+> "Una capacidad mental muy general que, entre otras cosas, implica la capacidad de razonar, planificar, resolver problemas, pensar de manera abstracta, comprender ideas complejas, aprender rápidamente y aprender de la experiencia."
+
+*Mainstream Science on Intelligence (1994)*
+
+---
+
+## Definiciones de Inteligencia 2
+
+> "Las personas difieren entre sí en su capacidad para comprender ideas complejas, para adaptarse eficazmente al entorno, para aprender de la experiencia, para participar en diversas formas de razonamiento, para superar obstáculos al pensar.
+
+> "Aunque estas diferencias individuales pueden ser sustanciales, nunca son completamente consistentes: el rendimiento intelectual de una persona determinada variará en diferentes ocasiones, en diferentes dominios, según lo juzguen diferentes criterios.
+
+## Definiciones de Inteligencia 3
+
+> "Los conceptos de «inteligencia» son intentos de aclarar y organizar este complejo conjunto de fenómenos. Aunque se ha logrado una claridad considerable en algunas áreas, ninguna conceptualización ha respondido todas las preguntas importantes, y ninguna exige el asentimiento universal.
+
+> "De hecho, cuando recientemente se les pidió a dos docenas de prominentes teóricos que definieran la inteligencia, dieron dos docenas de definiciones, algo diferentes."
+
+*Intelligence: Knowns and Unknows (1995)*
+
+---
+
+## Definiciones de Inteligencia 4
+
+> "En términos más generales, se puede describir como la capacidad de percibir o inferir información, y retenerla como conocimiento para aplicarlo a comportamientos adaptativos dentro de un entorno o contexto."
+
+*Wikipedia (2025)*
+
+---
+
+## Modelo de Inteligencias Múltiples
+
+**Howard Gardner** - Psicólogo estadounidense
+
+> "La inteligencia no es un conjunto unitario que agrupe diferentes capacidades específicas, sino una red de conjuntos autónomos interrelacionados"
+
+---
+
+## Tipos de Inteligencias Múltiples
+
+- Inteligencia lingüística
+- Inteligencia lógico-matemática
+- Inteligencia musical
+- Inteligencia espacial
+- Inteligencia corporal-cinestésica
+- Inteligencia intrapersonal
+- Inteligencia interpersonal
+- Inteligencia naturalista
+
+---
+
+## Inteligencia Emocional
+
+**Daniel Goleman** (1995)
+
+Concepto de *Inteligencia Emocional*: capacidad de reconocer sentimientos propios y ajenos, y la habilidad para manejarlos.
+
+---
+
+## Inteligencia a "Nivel Humano"
+
+Habilidades cognitivas generales:
+
+- Capacidad de adaptación y aprendizaje
+- Pensamiento abstracto
+- Resolución de problemas y planificación
+- Autoconciencia y emoción
+
+---
+
+## El Cerebro: la máquina orgánica de pensamientos
+
+Funciona a partir de una red de **neuronas**, que transmiten señales electroquímicas (**neurotransmisores**), creando **conexiones** para pensamientos, emociones, movimientos y funciones corporales.
+
+
+# Fundamentos históricos y conceptuales de la IA
+
+### El sueño de la máquina pensante
+
+## Mitos, Leyendas y Autómatas
+
+El deseo de crear seres artificiales con mente propia no es una invención del siglo XX, sino una constante en la historia humana.
+
+**Aspecto fundamental**: La idea de crear inteligencia es un acto que emula a los dioses o a la naturaleza.
+
+---
+
+## Mitos y Leyendas 1
+
+**Los perros de plata y oro** - La Odisea (Homero, siglos VIII – VII a.C):
+
+Guardianes automáticos que protegen la entrada del palacio del rey [Alcínoo](https://es.wikipedia.org/wiki/Alc%C3%ADnoo) en Corfú.
+
+![Khryseos & Argyreos](images/001_perros_plata_oro.png)
+
+::: {.notes}
+"[El palacio de Alcínoo, rey de los feacios] Lo cerraban puertas de oro, y columnas de plata se alzaban sobre el umbral; el dintel era de plata, y la manija de la puerta, de oro. A cada lado de la puerta había perros guardianes de oro y plata, inmortales y que nunca envejecían, que Hefesto, con su ingenio y arte, había forjado como protectores de la gran mansión."
+
+Alcínoo es el padre de Nausicaa.
+:::
+
+---
+
+## Mitos y Leyendas 2
+
+:::{.columns}
+:::{.column width="50%"}
+**Lie Zi** [列子](https://es.wikipedia.org/wiki/Lie_Zi) ([Lie Yukou](https://es.wikipedia.org/wiki/Lie_Yukou) – siglo V a.C.):
+
+Historia de un autómata creado por el artesano Ning Shi para el rey Mu, capaz de bailar, cantar y realizar trucos.
+:::
+:::{.column width="50%"}
+![El artista de Ning Shi - Lie Zi](images/002_lie_zi.png)
+:::
+:::
+
+:::{.notes}
+
+Al día iguiente Ning shi solicitó audiencia. El rey le recibió y dijo: «¿Quién es tu acompañante?» Ning shi respondió: «Es la obra de vuestro vasallo. Sabe ejecutar toda suerte de habilidades artísticas.» El rey Mu contempló sorprendido cómo caminaba, se inclinaba, levantaba la cabeza: un verdadero ser humano. El maestro artesano le tocó la barbilla y se puso a cantar con gran armonía, le tomó de las manos y se puso a danzar rítmicamente.  Y así, con gran precisión. hizo toda clase de ejercicios. El rey lo tuvo por un auténtico hombre. La favorita del rey, Sheng Ji, y las demás concubinas contemplaban el espectáculo.
+
+Al término de la representación, el artista de Ning shi guiñó el ojo e hizo señas a las concubinas que rodeaban al rey. Éste, furioso, quiso ejecutar inmediatamente a Ning shi, quien, presa del pánico. se apresuró a desmontar a su artista para hacerle ver al rey que todo él sólo era cuero y madera, goma y laca, de colores blanco, negro, rojo y azul. El rey lo examinó detenidamente: en su interior había un hígado. una vesícula, un corazón, pulmones, páncreas. riñones, intestinos, estómago: por fuera, huesos, múscuJos. tendones, articulaciones. así como piel, pelo, dientes y cabellos. Todo ello artificial. pero de una acabada perfección. Al recomponerlo reapareció todo su anterior aspecto. El rey hizo con él una serie de pruebas. Le quitó el corazón y no pudo hablar; le hizo sacar el hígado y ya no podía ver; le quitó los riñones y sus pies se inmovilizaron. Grande fue el contento del rey, que suspiró y exclamó: «¡Qué habilidad la del hombre que puede igualarse a la misma naturaleza!» Ordenó a continuación que lo montaran en un segundo carruaje y se lo llevó con él. (p. 85)
+
+:::
+
+---
+
+## Mitos y Leyendas 3
+
+**Galatea y Pigmalión** (Metamorfósis (8 d.C.) - Ovidio – siglos IV – III a.C.):
+
+Mito del escultor, Pigmalión, que se enamora de una de sus estatuas, Galatea, que luego la diosa Afrodita convierte en humana.
+
+:::{.columns}
+:::{.column width="50%"}
+![Pigmalión, de Angelo Bronzino (1530)](images/003_pigmalion1.png)
+:::
+:::{.column width="50%"}
+![Pigmalión, de Jean-Baptiste Regnault (1786)](images/004_pigmalion2.png)
+:::
+:::
+
+:::{.notes}
+Pigmalión se dirigió a la estatua y, al tocarla, le pareció que estaba caliente, que el marfil se ablandaba y que, deponiendo su dureza, cedía a los dedos suavemente, como la cera del monte Himeto se ablanda a los rayos del Sol y se deja manejar con los dedos, tomando varias figuras y haciéndose más dócil y blanda con el manejo. Al verlo, Pigmalión se llena de un gran gozo mezclado de temor, creyendo que se engañaba. Volvió a tocar la estatua otra vez y se cercioró de que era un cuerpo flexible y que las venas daban sus pulsaciones al explorarlas con los dedos.
+
+> Pinocho se considera una variante de esta historia.
+:::
+
+---
+
+## Mitos y Leyendas 4
+
+**Talos, el Gigante de Bronce** (Argonáuticas – Apolonio de Rodas, siglo III a.C.):
+
+Personaje de leyendas cretenses, autómata creado por Hefesto para proteger a Creta de invasores.
+
+:::{.columns}
+:::{.column width="50%"}
+![Talos alado, Moneda encontrada en Festos](images/005_talos1.png)
+:::
+:::{.column width="50%"}
+![Fotograma de la película Jason y los Argonautas (1963)](images/006b_jason-y-los-argonautas-huyendo-de-talos.png)
+:::
+:::
+
+:::{.notes}
+"Pues en ambas partes, en la parte más baja del hombro, estaba clavado un clavo de bronce, que cerraba la vena portadora de vida; y el divino ichor (sangre de los dioses) manaba como un líquido fundido.
+
+Tal era su furia destructora."
+
+Libro IV de las Argonáuticas de Apolonio de Rodas
+
+:::
+
+## Mitos y Leyendas 5
+
+**El Gólem (גּוֹלֶם)** (tradición judía – siglo XII – XVI d.C.):
+
+Ser animado fabricado a partir de materia inanimada, como barro o arcilla. Se le insufla "vida" a través de letras en su frente (¿un código?).
+
+:::{.columns}
+:::{.column width="50%"}
+![Reproducción del Golem de Praga](images/007_golem1.png)
+:::
+:::{.column width="50%"}
+![El Rabino Judah Loew creador del Golem](images/008_golem2.png)
+:::
+:::
+
+---
+
+## Los Autómatas y la Ingeniería 1
+
+**Herón de Alejandría** (Grecia, siglo I d.C.):
+
+Matemático y mecánico, inventor de artilugios mecánicos como teatros automáticos o máquinas que se activaban con vapor.
+
+:::{.columns}
+:::{.column width="50%"}
+![Pájaros cantores accionados por un pistón a vapor. De una copia de la Pneumática ](images/009_heron1.png)
+:::
+:::{.column width="50%"}
+![Portada del libro Automata, edición de 1589](images/010_heron2.png)
+:::
+:::
+
+:::{.notes}
+* **Pneumatica (Πνευματικά)**: Una descripción de máquinas que funcionan con aire, vapor o presión de agua, incluyendo el *hydraulis* u órgano hidráulico.
+* **Automata**: Una descripción de máquinas que permiten crear efectos asombrosos en banquetes y posiblemente también en contextos teatrales mediante medios mecánicos o neumáticos (por ejemplo, la apertura o cierre automático de puertas de templos, estatuas que sirven vino y leche, etc.).
+* **Belopoeica**: Una descripción de máquinas de guerra.
+* **Dioptra**: Una colección de métodos para medir longitudes, donde se describen el odómetro y la *dioptra* (un aparato que se asemeja al teodolito).
+* **Metrica**: Una obra que describe cómo calcular áreas de superficie y volúmenes de diversos objetos geométricos.
+:::
+
+---
+
+## Los Autómatas y la Ingeniería 2
+
+**Libro de los Mecanismos Ingeniosos** (كتاب الحيل Kitab al-Hiyal) (Hermanos Banu Musa | بنو موسی, siglo IX):
+
+Libro árabe escrito por tres hermanos **persas**, describen centenares de mecanismos autómatas, es una recopilación de obras grecolatinas.
+
+:::{.columns}
+:::{.column width="50%"}
+![Lámpara auto rellenable](images/011_banu-musa1.png)
+:::
+:::{.column width="50%"}
+![Autómata movido por agua](images/012_banu-musa2.png)
+:::
+:::
+
+:::{.notes}
+* **Persas**: Pueblo de Persia. ¿A qué países corresponde Persia en la actualidad?
+* **Libro**: Libro de los Mecanismos Ingeniosos.
+* ¿A qué años corresponde el s. IX?
+:::
+
+## Los Autómatas y la Ingeniería 3
+
+**El caballero mecánico de Leonardo da Vinci** (1495):
+
+Autómata que podía estar de pie, sentarse y elevar el visor de su casco a partir de un mecanismo de poleas y cuerdas.
+
+![Robot o Caballero Mecánico de Leonardo da Vinci](images/013_caballero_leonardo.png)
+
+:::{.notes}
+* **Leonardo da Vinci**: Nacimiento: 1452, muerte: 1519.
+* ¿Qué es un autómata?
+:::
+
+---
+
+## Los Autómatas y la Ingeniería 4
+
+**León Mecánico de Leonardo da Vinci** (1515):
+
+Autómata creado para la corte francesa. El león era capaz de caminar, mover la cabeza y la cola, además de abrir su pecho para mostrar una flor de lis.
+
+---
+
+## Los Autómatas y la Ingeniería 5
+
+**El Hombre de Palo de Juanelo Turriano** (siglo XV):
+
+Autómata de madera que movía los brazos y las piernas y pedía limosna.
+
+---
+
+## Los Autómatas y la Ingeniería 6
+
+**El ajedrecista autómata Turco** (Wolfgang von Kempelen - 1796):
+
+Estructura mecánica que mostraba un ajedrecista capaz de jugar contra personas. Años después se reveló que era un fraude.
+
+---
+
+## Los Autómatas y la Ingeniería 7
+
+**El pato digeridor** (Jacques de Vaucanson – 1739):
+
+Pato autómata hecho de más de 400 piezas de cobre podía ingerir granos y agua, mover la cabeza y limpiar sus alas.
+
+---
+
+## La IA y los Robots en la Literatura 1
+
+**Frankenstein** (Mary Shelley, 1818):
+
+Considerada por muchos la primera obra de ciencia ficción de la historia, plantea el concepto de crear una criatura inteligente a partir de restos de cadáveres y el poder de la electricidad.
+
+---
+
+## La IA y los Robots en la Literatura 2
+
+**R.U.R.** (Rossum's Universal Robots. Karel Capek – 1920):
+
+Introduce la palabra "robot" (del checo *robota*, que significa "trabajo forzado" o "esclavo"). La obra muestra una rebelión robot que acaba con la humanidad.
+
+---
+
+## La IA y los Robots en la Literatura 3
+
+**Isaac Asimov** (Saga de los Robots, años 40-80):
+
+Responsable de usar por primera vez la palabra "robótica", y creador de las **Tres Leyes de la Robótica**.
+
+---
+
+## Tres Leyes de la Robótica de Isaac Asimov
+
+1. Un robot no debe dañar a un ser humano o, por inacción, permitir que un ser humano sufra daños.
+2. Un robot debe obedecer las órdenes de los humanos, excepto que estas órdenes entren en conflicto con la Primera Ley.
+3. Un robot debe proteger su propia existencia, excepto si esta protección entra en conflicto con la Primera y la Segunda Ley.
+
+---
+
+## La IA y los Robots en la Literatura
+
+**2001: Una Odisea del Espacio** (Arthur C. Clarke - 1968):
+Muestra la IA arquetípica que falla y contradice las órdenes de los humanos con el fin de cumplir su objetivo.
+
+---
+
+## La IA y los Robots en la Literatura
+
+**¿Sueñan los androides con ovejas eléctricas?** (Philip K. Dick - 1968):
+Aborda el tema de "qué significa ser humano", y plantea la pregunta: si un ser artificial tiene recuerdos y emociones indistinguibles de las humanas, ¿qué lo hace menos "real"?
+
+---
+
+## La IA y los Robots en la Literatura
+
+**Neuromancer** (William Gibson - 1980):
+Presenta un mundo en donde la IA (llamada Neuromancer) no tiene forma corporal y busca fusionarse con su contraparte (Wintermute) para alcanzar un nuevo nivel de consciencia.
+
+---
+
+## Reflexión sobre Mitos, Leyendas y Autómatas
+
+El deseo de crear máquinas semejantes a los humanos o con la capacidad de pensar y actuar por sí mismas ha sido un anhelo humano desde los inicios de la civilización.
+
+**Importante**: Reflexionar sobre la importancia de la influencia de las artes y las humanidades en el desarrollo de la ciencia y las ingenierías.
+
+---
+
+## Fundamentos Filosóficos
+
+**Pregunta fundamental**: ¿Puede una máquina, hecha o compuesta en tu totalidad de materia (inorgánica), llegar a poseer una cualidad como la "inteligencia" o la "mente"?
+
+**Debate**: ¿La mente es algo inmaterial, o es un producto físico?
+
+---
+
+## Dualismo Ontológico
+
+**René Descartes** (siglo XVIII):
+La realidad se compone de dos sustancias distintas:
+
+- **Res Extensa (Sustancia Extensa)**: el mundo físico
+- **Res Cogitans (Sustancia Pensante)**: la mente, el alma, la conciencia
+
+**Cogito, ergo sum** (Pienso, luego existo)
+
+---
+
+## Consecuencia del Dualismo
+
+Una máquina pertenece al reino de la Res Extensa. Podría simular comportamientos inteligentes de forma mecánica, pero nunca podría tener una **mente, conciencia o comprensión reales**.
+
+---
+
+## Materialismo
+
+Postura filosófica que afirma que **todo lo que existe es físico**.
+
+La mente, la conciencia y la inteligencia son el resultado de procesos físicos, químicos y biológicos muy complejos que ocurren en el cerebro.
+
+**Analogía**: Cerebro = hardware, Mente = software
+
+---
+
+## Consecuencia del Materialismo
+
+Si la inteligencia y la conciencia es un proceso de computación que surge de un sustrato físico (neuronas), entonces ese mismo proceso podría ser **implementado en otro sustrato físico** (semiconductores).
+
+El Materialismo hace **filosóficamente posible** la existencia de la IA General o Superinteligencia.
+
+---
+
+## Fenómenos Emergentes
+
+Un **fenómeno emergente** es una propiedad o comportamiento que surge en un sistema complejo como un todo, que no existe en sus partes individuales.
+
+**Ejemplo**: Una hormiga tiene un comportamiento simple, pero la colonia exhibe una "inteligencia colectiva" compleja.
+
+---
+
+## Fenómenos Emergentes
+
+**Autómatas celulares**: Sistemas computacionales que presentan propiedades emergentes.
+
+**Ejemplo del cerebro**: Una neurona individual no es consciente, pero la interacción de 86.000 millones de neuronas da lugar a la conciencia.
+
+---
+
+## Conclusión Filosófica
+
+La mente parece ser un **fenómeno emergente** del cerebro.
+
+**Pregunta clave**: ¿Puede emerger la conciencia en la IA? ¿Depende del sustrato (orgánico)?
+
+---
+
+## Formalismos Lógicos: La Álgebra del Pensamiento
+
+El razonamiento humano puede ser desglosado en reglas formales y simbólicas, que pueden ser trasladadas a una máquina para "emular" procesos lógicos del pensamiento.
+
+---
+
+## Aristóteles y la Gramática del Razonamiento
+
+**Aristóteles** (Grecia, 384 a.C. - 332 a.C):
+Sentó las bases del "razonamiento lógico" y propuso que la **estructura** de un argumento es separable de su **contenido**.
+
+Concepto central: **silogismo**
+
+---
+
+## Ejemplo de Silogismo
+
+**Premisa 1**: Todos los humanos son mortales.
+**Premisa 2**: Todos los griegos son humanos.
+**Conclusión**: Todos los griegos son mortales.
+
+**Función lógica**: Si A → B, y C → A, entonces C → B.
+
+---
+
+## George Boole y la Lógica Simbólica
+
+**George Boole** (Inglaterra, 1815 – 1864):
+Creador del álgebra booleana, fundamentos de la lógica computacional.
+
+En su libro "Una investigación de las leyes del pensamiento (1854)", propuso tratar la lógica como un tipo especial de álgebra.
+
+---
+
+## Conceptos del Álgebra Booleana
+
+- **Variables Binarias**: Verdadero (1) o Falso (0)
+- **Operadores Lógicos**:
+  - AND (Conjunción ∧)
+  - OR (Disyunción ∨)
+  - NOT (Negación ¬)
+
+---
+
+## Alan Turing
+
+**Alan Turing** (Inglaterra, 1912 – 1954):
+Matemático, lógico, informático teórico, criptógrafo y filósofo británico. Considerado uno de los padres de las ciencias de la computación.
+
+---
+
+## La Máquina de Turing
+
+Modelo matemático abstracto compuesto por:
+1. Cinta infinita con símbolos
+2. Cabeza que lee y escribe símbolos
+3. Conjunto finito de instrucciones
+
+**Tesis de Church-Turing**: Cualquier problema computable se puede resolver con una Máquina de Turing.
+
+---
+
+## El Test de Turing
+
+**Ejercicio mental** (1950): La inteligencia es un "juego de imitación"
+
+1. Interrogador humano se comunica por texto con humano y máquina
+2. Objetivo de la máquina: engañar al interrogador
+3. Objetivo del interrogador: identificar correctamente
+
+**Conclusión**: Si la máquina logra engañar, debemos considerar que es inteligente.
+
+---
+
+## Objeciones al Test de Turing
+
+1. **Objeción de la Conciencia**: "Una máquina puede hacerlo, pero nunca sentirá que lo hace"
+2. **Objeción Matemática**: "Los sistemas formales tienen límites inherentes"
+3. **Objeción de la Informalidad**: "El comportamiento humano es demasiado complejo"
+
+---
+
+## Respuestas de Turing
+
+1. **Conciencia**: Solo podemos juzgar la inteligencia basándonos en la conducta observable
+2. **Matemática**: Los humanos también tenemos límites
+3. **Informalidad**: Debemos "educar" a la máquina para que aprenda de la experiencia (premonición del Machine Learning)
+
+---
+
+## Relevancia del Test de Turing
+
+Aunque es solo un ejercicio mental, ha sido objeto de debate durante décadas, mostrando su relevancia en la inteligencia artificial moderna.
+
+Turing convirtió un sueño filosófico en un campo de investigación tangible.
+
+---
+
+## John von Neumann
+
+**John von Neumann** (Hungría-EEUU. 1903 – 1957):
+Matemático húngaro-estadounidense con contribuciones en física cuántica, teoría de juegos, economía, estadística y ciencias de la computación.
+
+---
+
+## Arquitectura de von Neumann
+
+**Concepto Principal**: Almacenar tanto el **programa** (instrucciones) como los **datos** en la misma memoria.
+
+**Componentes**:
+1. Unidad de Memoria
+2. Unidad de Procesamiento (CPU)
+3. Unidad aritmético-lógica (ALU)
+4. Dispositivo de Entrada/Salida
+
+---
+
+## Relevancia de von Neumann
+
+Arquitectura **flexible y universal**: la máquina física es capaz de ejecutar cualquier tipo de programa solo con cambiar el software en la memoria.
+
+---
+
+## Claude Shannon
+
+**Claude Shannon** (EEUU. 1916 – 2001):
+Matemático, ingeniero eléctrico y criptógrafo, padre de la **teoría de la información**.
+
+---
+
+## Conceptos de Shannon
+
+- **Bit (binary digit)**: Unidad fundamental de la información
+- **Entropía de la Información**: Mide el grado de incertidumbre o sorpresa de un mensaje
+
+---
+
+## Aplicaciones de la Teoría de la Información
+
+- **Árboles de Decisión**: El algoritmo elige características que más reducen la entropía
+- **Entropía cruzada**: Métrica para evaluar modelos de clasificación
+- **Formatos de compresión**: ZIP, JPEG, MP3
+
+---
+
+## Confluencia de las Ideas
+
+- **Boole**: proporcionó la **lógica**
+- **Turing**: proporcionó la **teoría de la computación**
+- **Von Neumann**: nos dio la **arquitectura** práctica
+- **Shannon**: puso la **teoría de la información**
+
+---
+
+## La Conferencia de Dartmouth
+
+**Verano de 1956**, Dartmouth College - EEUU
+
+Taller: "Dartmouth Summer Research Project on Artificial Intelligence"
+
+Organizadores: Claude Shannon, John McCarthy, Nathaniel Rochester y Marvin Minsky
+
+---
+
+## Importancia de Dartmouth
+
+- Se acuñó por primera vez el término **"inteligencia artificial"**
+- Se definió la IA como una disciplina formal de investigación
+- Marcó el rumbo inicial del campo
+
+---
+
+## Tesis Central de Dartmouth
+
+> "...cada aspecto del aprendizaje o cualquier otra característica de la inteligencia puede, en principio, ser descrito con tanta precisión que se puede hacer que una máquina lo simule"
+
+---
+
+## Participantes Destacados
+
+- **John McCarthy**: Creador del término "IA", creador de LISP
+- **Marvin Minsky**: Líder del Laboratorio de IA del MIT
+- **Claude Shannon**: Padre de la Teoría de la Información
+- **Nathaniel Rochester**: Jefe de arquitectura de IBM
+- **Allen Newell & Herbert A. Simon**: Llegaron con el Logic Theorist
+
+---
+
+## ¿Por qué fue importante Dartmouth?
+
+- Unificó líneas de investigación bajo una sola bandera
+- Estableció áreas de investigación centrales: razonamiento, conocimiento, aprendizaje y lenguaje
+- Todo lo que ha sucedido en el área ha sido consecuencia de dicha reunión
+
+---
+
+## ¿Qué es la Inteligencia Artificial?
+
+No existe consenso o una definición única.
+
+---
+
+## Definiciones de IA
+
+**Alan Turing (1950)**:
+> "Se puede decir que una máquina piensa cuando puede engañar a un humano haciéndole creer que es otra persona, en una conversación por texto."
+
+---
+
+## Definiciones de IA
+
+**Russell & Norvig (2020)**:
+> "La Inteligencia Artificial es el estudio de agentes que reciben percepciones del entorno y realizan acciones."
+
+---
+
+## Definiciones de IA
+
+**Nilsson (1998)**:
+> "La Inteligencia Artificial es la ciencia y la ingeniería de hacer máquinas inteligentes, especialmente programas de computadora inteligentes."
+
+---
+
+## Definiciones de IA
+
+**IBM**:
+> "La Inteligencia Artificial es una tecnología que permite a las máquinas simular la inteligencia humana, utilizando razonamiento, aprendizaje y automatización."
+
+---
+
+## Definiciones de IA
+
+**Diccionario de Oxford**:
+> "Teoría y desarrollo de sistemas capaces de realizar tareas que normalmente requieren de inteligencia humana, como la percepción visual, reconocimiento de voz, toma de decisiones y traducción de lenguajes."
+
+---
+
+## Definición General
+
+Llamaremos **"inteligencia artificial"** a cualquier máquina, algoritmo, dispositivo o sistema capaz de realizar una tarea que solemos asociar a la inteligencia humana.
+
+---
+
+## Técnicas Clásicas de IA
+
+La IA como término "paraguas" para algoritmos clásicos que manipulan símbolos a través de la lógica:
+
+- Sistemas Expertos
+- Algoritmos de Búsqueda como A*
+- Algoritmos Genéticos
+- Autómatas Celulares
+
+---
+
+## Problema de las Técnicas Clásicas
+
+- Cuando las **reglas cambian** o ocurre algo inesperado, estos algoritmos **fallan**
+- Su conocimiento es **explícitamente programado**
+
+---
+
+## Machine Learning
+
+**Arthur Samuel (1959)**:
+> "Es el área de estudio que le da a las computadoras la habilidad de aprender sin haberles sido explícitamente programadas para ello."
+
+---
+
+## Definición Formal de ML
+
+**Tom Mitchell (1997)**:
+> "Se dice que un programa de computadora aprende de la experiencia E con respecto a una cierta tarea T y una medida de desempeño P, si su desempeño sobre T, medido por P, mejora con la experiencia E."
+
+---
+
+## Cambio de Paradigma
+
+**Machine Learning** representa un cambio fundamental:
+
+- En lugar de programar **reglas explícitas**
+- Le damos **datos** a la máquina y un **objetivo**
+- El algoritmo le permite **aprender por sí misma** los patrones o reglas
+
+---
+
+## Deep Learning
+
+**IBM.com**:
+> "El Deep Learning es un subconjunto del Machine Learning, caracterizado por ser redes neuronales con tres o más capas, las cuales intentan simular el comportamiento del cerebro humano."
+
+---
+
+## Relación entre Campos
+
+- **Inteligencia Artificial**
+  - **Machine Learning**
+    - **Deep Learning**
+
+---
+
+## Reseña Histórica del Machine Learning
+
+[Nota: Esta sección contenía principalmente líneas de tiempo visuales que no se pueden representar completamente en texto]
+
+---
+
+## Computación Tradicional vs Machine Learning
+
+**Computación Tradicional**:
+- Reglas + Datos → Salidas
+
+**Machine Learning**:
+- Datos + Salidas → Reglas
+
+---
+
+## ¿Qué significa "Aprendizaje" en Machine Learning?
+
+Capacidad de mejorar el desempeño en una tarea mediante la experiencia, sin necesidad de reprogramación explícita.
+
+---
+
+## Fin del Módulo 1
+
+**Próximo tema**: Módulo 2 - Paradigmas, Algoritmos y Herramientas Centrales

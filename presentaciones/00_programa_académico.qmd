@@ -1,0 +1,378 @@
+---
+title: "Introducción a la Inteligencia Artificial"
+subtitle: "Programa Académico - Ingeniería en Inteligencia Artificial"
+date: last-modified
+author:
+  - name: Francisco Palm
+    orcid: 0000-0002-1293-0868
+    email: fpalm@qu4nt.com
+    affiliations: UNC, qu4nt
+format:
+  clean-revealjs
+html-math-method:
+  method: mathjax
+  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+lang: es
+lightbox: true
+---
+
+# Módulo I  
+### Fundamentos Históricos y Conceptuales de la Inteligencia Artificial
+
+## Objetivo General
+
+Comprender los fundamentos históricos, filosóficos y conceptuales que dieron origen a la Inteligencia Artificial, diferenciando sus principales disciplinas y contrastando su paradigma con la computación tradicional.
+
+---
+
+## Objetivos Específicos
+
+- Identificar los hitos, figuras clave y conceptos filosóficos fundamentales del surgimiento de la IA.  
+- Diferenciar los conceptos de **IA**, **Machine Learning** y **Deep Learning**.  
+- Contrastar el paradigma de **programación tradicional** con el del **aprendizaje automático**.  
+- Valorar la relevancia del **Test de Turing** y otras contribuciones fundacionales.
+
+---
+
+## Contenidos Conceptuales
+
+- De mitos a máquinas: el sueño de la máquina pensante.  
+- Dualismo vs. Materialismo.  
+- Formalismos lógicos: Aristóteles, Boole, Turing, von Neumann, Shannon.  
+- Definiciones de IA, ML, DL.  
+- Evolución histórica de la IA.
+
+---
+
+## Actividades de Aprendizaje
+
+- Discusión en clase y elaboración de diagramas jerárquicos.  
+- Debate: *Programar vs. Entrenar*.  
+- Lecturas y ensayos críticos sobre el **Test de Turing**.  
+- Búsqueda y análisis de ejemplos cotidianos de IA, ML y DL.
+
+---
+
+## Actividades de Evaluación
+
+- Prueba escrita sobre fundamentos históricos y filosóficos.  
+- Presentación oral del diagrama jerárquico (IA ⊃ ML ⊃ DL).  
+- Cuadro comparativo entre programación tradicional y ML.  
+- Ensayo crítico sobre la vigencia del Test de Turing.
+
+## Recursos
+
+- Presentaciones y diapositivas de clase.  
+- Lecturas recomendadas:  
+  - M. Mitchell (2019). *Artificial Intelligence: A Guide for Thinking Humans.*  
+  - A. M. Turing (1950). *Computing Machinery and Intelligence.*  
+  - G. Baños (2024). *El sueño de la inteligencia artificial.*  
+  - P. Rodríguez (2018). *Inteligencia Artificial. Cómo cambiará el mundo (y tu vida).*  
+- Videotutoriales y conferencias sobre historia de la IA.  
+- Software de diagramación conceptual: CmapTools, Miro, Lucidchart.  
+- Artículos de divulgación sobre los orígenes y evolución de la IA.  
+
+# Módulo II  
+
+### Paradigmas, Algoritmos y Herramientas Centrales
+
+## Objetivo General
+
+Conocer los principales paradigmas de aprendizaje, algoritmos y arquitecturas de la IA, comprendiendo su funcionamiento, aplicabilidad y diferencias para resolver problemas.
+
+---
+
+## Objetivos Específicos
+
+- Reconocer los tipos de aprendizaje (supervisado, no supervisado, refuerzo).  
+- Describir y aplicar algoritmos representativos (Regresión, Clasificación, Agrupamiento).  
+- Distinguir entre **Machine Learning** y **Deep Learning**.  
+- Comparar arquitecturas de redes neuronales (CNN, RNN, Transformers).
+
+---
+
+## Contenidos Conceptuales
+
+- Tipos de aprendizaje y de problemas en IA.  
+- Principio y propósito de algoritmos base: Regresión Lineal, KNN, K-Medias.  
+- Diferencias ML vs. DL: feature engineering, datos, cómputo, arquitectura.  
+- Introducción a redes neuronales: CNN, RNN, Transformers.
+
+---
+
+## Actividades de Aprendizaje
+
+- Laboratorios prácticos en Python (scikit-learn).  
+- Análisis de estudios de caso y debates guiados.  
+- Taller comparativo ML vs. DL.  
+- Simulación de redes neuronales y atención en Transformers.
+
+---
+
+## Actividades de Evaluación
+
+- Prueba escrita y análisis de caso.  
+- Informe de laboratorio con implementación de algoritmos.  
+- Mapa conceptual ML vs. DL.  
+- Exposición comparativa de arquitecturas neuronales.
+
+## Recursos
+
+- Jupyter Notebook / Google Colab.  
+- Lenguajes y librerías: Python, scikit-learn, pandas, NumPy, Matplotlib.  
+- Datasets de práctica: *Iris*, *Boston Housing*, *MNIST*.  
+- Referencias:  
+  - A. Géron (2019). *Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow.*  
+  - C. M. Bishop (2016). *Pattern Recognition and Machine Learning.*  
+  - F. Chollet (2021). *Deep Learning with Python.*  
+  - G. James et al. *An Introduction to Statistical Learning with Applications in Python.*  
+- Material audiovisual: videotutoriales sobre algoritmos de clasificación y redes neuronales.  
+- Diagramas de arquitectura: CNN, RNN, Transformers.  
+
+# Módulo III  
+
+### Ciclo de Vida del Proyecto de IA
+
+## Objetivo General
+
+Analizar los conocimientos técnicos adquiridos para comprender y evaluar las etapas del ciclo de vida de un proyecto de IA, aplicando buenas prácticas y analizando casos reales.
+
+---
+
+## Objetivos Específicos
+
+- Reconocer tipos de aprendizaje y salidas (predictiva/generativa).  
+- Describir y aplicar algoritmos representativos.  
+- Diferenciar ML y DL en proyectos reales.  
+- Comparar arquitecturas según tipo de dato y contexto.
+
+---
+
+## Contenidos Conceptuales
+
+- Tipos de problemas en IA y ciclo de vida del proyecto.  
+- Evaluación de desempeño de modelos.  
+- ML vs. DL: decisiones técnicas y de recursos.  
+- Diseño de arquitecturas CNN, RNN y Transformers para casos prácticos.
+
+---
+
+## Actividades de Aprendizaje
+
+- Estudios de caso en contexto productivo o social.  
+- Cuadernos de programación (*Jupyter/Colab*).  
+- Debate sobre decisiones de modelado y recursos.  
+- Taller de arquitectura de redes neuronales.
+
+---
+
+## Actividades de Evaluación
+
+- Prueba escrita sobre clasificación de problemas.  
+- Informe de laboratorio.  
+- Mapa comparativo ML vs. DL.  
+- Exposición de diseño de arquitectura neuronal.
+
+## Recursos
+
+- Cuadernos de trabajo en Python (*notebooks*).  
+- Conjuntos de datos reales (públicos o simulados).  
+- Guías metodológicas del ciclo de vida de proyectos de IA.  
+- Librerías para validación y métricas: scikit-learn, TensorFlow, Keras.  
+- Recursos didácticos sobre *feature engineering* y evaluación de modelos.  
+- Referencias:
+  - Géron, A. (2019). *Hands-On Machine Learning with Scikit-learn, Keras and TensorFlow.*  
+  - Bishop, C. M. (2016). *Pattern Recognition and Machine Learning.*  
+  - Chollet, F. (2021). *Deep Learning with Python.*  
+- Artículos sobre buenas prácticas y documentación técnica en IA.
+
+# Módulo IV  
+
+### Implicaciones Éticas, Sociales y Futuro de la IA
+
+## Objetivo General
+
+Evaluar de manera crítica las implicaciones éticas, legales, sociales y geopolíticas de la IA, fomentando una perspectiva integral y responsable sobre su desarrollo y uso.
+
+---
+
+## Objetivos Específicos
+
+- Analizar dilemas éticos: sesgo, privacidad, transparencia, rendición de cuentas.  
+- Conocer marcos regulatorios internacionales (GDPR, AI Act).  
+- Interpretar el panorama geopolítico de la IA.  
+- Integrar las dimensiones ética, social y ambiental en el desarrollo tecnológico.
+
+---
+
+## Contenidos Conceptuales
+
+- Ética de la IA: sesgos, privacidad, explicabilidad (XAI).  
+- Regulación global de la IA.  
+- Geopolítica y soberanía tecnológica.  
+- Futuro de la IA: sostenibilidad, impacto laboral, derechos humanos.
+
+---
+
+## Actividades de Aprendizaje
+
+- Discusión guiada de dilemas éticos.  
+- Seminario sobre el *AI Act* y marcos regulatorios.  
+- Debate sobre IA y poder global.  
+- Mesa redonda: “Hacia una IA responsable”.
+
+---
+
+## Actividades de Evaluación
+
+- Informe de caso ético.  
+- Ensayo argumentativo sobre regulación.  
+- Presentación oral sobre geopolítica de la IA.  
+- Proyecto final integrador: propuesta de IA ética y sostenible.
+
+
+## Recursos
+
+- Artículos académicos y periodísticos sobre ética y regulación de la IA.  
+- Documentos oficiales: *EU AI Act*, *GDPR*, *OECD Principles on AI*.  
+- Lecturas recomendadas:  
+  - J. I. Latorre (2019). *Ética para Máquinas.*  
+  - K. Crawford (2021). *Atlas of AI.*  
+  - C. O’Neil (2016). *Weapons of Math Destruction.*  
+- Material audiovisual: documentales sobre sesgo y justicia algorítmica.  
+- Mapas estratégicos y reportes del *World Economic Forum*.  
+- Recursos para el proyecto final: guías de IA responsable, informes sobre sostenibilidad y energía computacional.
+
+---
+
+## Evaluación Global del Curso
+
+| Módulo | Ponderación | Actividades Clave |
+|:----|:----:|:----|
+| Módulo I | 25% | Prueba escrita, exposición, ensayo crítico |
+| Módulo II | 25% | Laboratorio, mapa conceptual, presentación |
+| Módulo III | 25% | Proyecto de ciclo de vida, análisis de caso |
+| Módulo IV | 25% | Caso ético, ensayo, presentación, proyecto final |
+
+# Cronograma General
+
+## Cronograma General
+
+- 18 Semanas — 4 horas académicas por semana  
+ - Inicio: Lunes 10 de noviembre de 2025  
+ - Finalización: Lunes 9 de marzo de 2026
+
+---
+
+## Módulo I
+
+### Fundamentos Históricos y Conceptuales de la Inteligencia Artificial  
+
+**Duración:** Semanas 1–4 (10 noviembre – 1 diciembre 2025)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **1** | 10 nov | Presentación del curso. Panorama general de la IA. | Conversatorio inicial, diagnóstico y lectura guiada. | — |
+| **2** | 17 nov | Mitos, filosofía y formalismos lógicos. | Análisis de textos clásicos; mapa conceptual. | — |
+
+
+## Módulo I
+
+### Fundamentos Históricos y Conceptuales de la Inteligencia Artificial  
+
+**Duración:** Semanas 1–4 (10 noviembre – 1 diciembre 2025)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **3** | 24 nov | Evolución histórica y Test de Turing. | Debate: “¿Puede pensar una máquina?” | — |
+| **4** | 1 dic | IA vs ML vs DL; cambio de paradigma. | Elaboración de diagrama jerárquico (IA ⊃ ML ⊃ DL). | **Prueba escrita y presentación oral.** |
+
+## Módulo II
+
+### Paradigmas, Algoritmos y Herramientas Centrales
+
+**Duración:** Semanas 5–8 (8 diciembre – 29 diciembre 2025)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **5** | 8 dic | Tipos de aprendizaje y problemas en IA. | Discusión y clasificación de casos. | — |
+| **6** | 15 dic | Algoritmos base: Regresión, Clasificación y Agrupamiento. | Laboratorio en Python (scikit-learn). | — |
+
+> **Receso académico:** 22 de diciembre al 10 de enero de 2026
+
+## Módulo II  
+### Paradigmas, Algoritmos y Herramientas Centrales  
+**Duración:** Semanas 5–8 (8 diciembre – 29 diciembre 2025)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **7** | 12 ene | Machine Learning vs Deep Learning. | Debate guiado y glosario ilustrado. | **Informe de laboratorio.** |
+| **8** | 19 ene | Arquitecturas de redes neuronales: CNN, RNN, Transformers. | Taller práctico y exposición. | **Presentación comparativa.** |
+
+
+---
+
+## Módulo III  
+### Ciclo de Vida del Proyecto de IA  
+**Duración:** Semanas 9–12 (19 enero – 9 febrero 2026)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **9** | 26 ene | Etapas del ciclo de vida de un proyecto de IA. | Discusión de estudios de caso. | — |
+| **10** | 2 feb | Diseño e implementación de modelos. | Práctica en notebooks y métricas. | — |
+
+
+## Módulo III  
+### Ciclo de Vida del Proyecto de IA  
+**Duración:** Semanas 9–12 (19 enero – 9 febrero 2026)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **11** | 9 feb | Selección de algoritmos y validación. | Análisis crítico de desempeño. | **Prueba escrita y análisis de caso.** |
+| **12** | 16 feb | Documentación técnica y comunicación de resultados. | Elaboración de informe final del módulo. | **Informe de laboratorio.** |
+
+---
+
+## Módulo IV  
+### Implicaciones Éticas, Sociales y Futuro de la IA  
+**Duración:** Semanas 13–17 (16 febrero – 9 marzo 2026)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **13** | 23 feb | Dilemas éticos: sesgo, privacidad y transparencia. | Análisis de casos reales. | — |
+| **14** | 2 mar | Regulación global de la IA (GDPR, AI Act). | Seminario comparativo. | **Ensayo argumentativo.** |
+
+
+## Módulo IV  
+### Implicaciones Éticas, Sociales y Futuro de la IA  
+**Duración:** Semanas 13–17 (16 febrero – 9 marzo 2026)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **15** | 9 mar | Geopolítica de la IA y soberanía tecnológica. | Debate: “IA como poder global”. | **Presentación oral.** |
+| **16** | 16 mar | Futuro, sostenibilidad y responsabilidad profesional. | Mesa redonda final. | **Proyecto integrador.** |
+
+## Semana 18  
+### Cierre del Curso — 30 marzo 2026
+
+| Semana | Fecha | Actividades | Evaluaciones |
+|:--:|:--:|:--|:--|
+| **17** | 23 mar | Retroalimentación final, revisión de proyectos, cierre reflexivo. | **Entrega definitiva del Proyecto Final Integrador.** |
+| **18** | 30 mar | Retroalimentación final, revisión de proyectos, cierre reflexivo. | **Entrega definitiva del Proyecto Final Integrador.** |
+
+
+
+## Referencias Fundamentales
+
+- Mitchell, M. (2019). *Artificial Intelligence: A Guide for Thinking Humans.*  
+- Géron, A. (2019). *Hands-On Machine Learning with Scikit-learn, Keras and TensorFlow.*  
+- Latorre, J. I. (2019). *Ética para Máquinas.*  
+- Crawford, K. (2021). *Atlas of AI.*  
+- O’Neil, C. (2016). *Weapons of Math Destruction.*
+
+---
+
+## Cierre
+
+> “La inteligencia artificial no solo se programa: se comprende, se cuestiona, se responsabiliza.”  
+> — Programa Didáctico UNC – 2025
