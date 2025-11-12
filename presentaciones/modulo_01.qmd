@@ -40,17 +40,50 @@ lightbox: true
 
 ---
 
+## ¿Qué es la Inteligencia?
+### Un preámbulo a la Inteligencia Artificial
+
+---
+
+## El Problema de la Definición
+
+¿Qué significa ser "inteligente"?
+
+::: {.incremental}
+* ¿Es crear arte o música? 🎨
+* ¿Es simplemente sobrevivir y adaptarse? 🌿
+:::
+
+. . .
+
+> No existe una única definición consensuada. El concepto es complejo y multidimensional.
+
+---
+
 ## Concepto de Inteligencia
 
-**Inteligencia** – del latín *intelligentia* o *intellectus*, que significa comprender o percibir.
+La palabra [‘inteligencia’](https://es.wikipedia.org/wiki/Inteligencia)  proviene del latín *intelligentia* o *intellēctus*, que a su vez provienen del verbo *intellegere* —término compuesto de *inter* («entre») y *legere* («leer, escoger»)— que significa comprender o percibir.
+
+- Etimología de [Inteligencia](https://etimologia.com/inteligencia/).
+- [Inteligencia](https://dle.rae.es/inteligencia) según la Real Academia Española.
 
 ---
 
 ## Definiciones de Inteligencia 1
 
+::: {.columns}
+:::{.column width="50%"}
+
 > "Una capacidad mental muy general que, entre otras cosas, implica la capacidad de razonar, planificar, resolver problemas, pensar de manera abstracta, comprender ideas complejas, aprender rápidamente y aprender de la experiencia."
 
-*Mainstream Science on Intelligence (1994)*
+[Mainstream Science on Intelligence (1994)](https://en.wikipedia.org/wiki/Mainstream_Science_on_Intelligence)
+
+:::
+:::{.column width="50%"}
+![Inteligencia](images/000_mainstream_science_intelligence.png)
+:::
+:::
+
 
 ---
 
@@ -66,7 +99,7 @@ lightbox: true
 
 > "De hecho, cuando recientemente se les pidió a dos docenas de prominentes teóricos que definieran la inteligencia, dieron dos docenas de definiciones, algo diferentes."
 
-*Intelligence: Knowns and Unknows (1995)*
+*Intelligence: Knowns and Unknowns (1995)*
 
 ---
 
@@ -77,6 +110,105 @@ lightbox: true
 *Wikipedia (2025)*
 
 ---
+
+## Concepción 1: Inteligencia Humana (Psicología)
+
+Tradicionalmente, la psicología se ha centrado en las capacidades cognitivas humanas:
+
+* **Razonamiento:** Capacidad para sacar conclusiones lógicas.
+* **Resolución de Problemas:** Encontrar soluciones a nuevos desafíos.
+* **Memoria y Aprendizaje:** Adquirir y almacenar conocimiento de la experiencia.
+* **Comprensión Abstracta:** Entender ideas complejas (ej. matemáticas, filosofía).
+* **Adaptación:** Ajustar el comportamiento a nuevos entornos.
+
+---
+
+## Concepción 2: Inteligencias Múltiples
+
+El psicólogo Howard Gardner propuso que no hay *una* sola inteligencia, sino varias "inteligencias" independientes:
+
+::: {.incremental}
+* Lógico-matemática
+* Lingüística
+* Espacial
+* Musical
+* Corporal-kinestésica
+* Interpersonal (entender a otros)
+* Intrapersonal (entenderse a sí mismo)
+:::
+
+---
+
+::: {.callout-tip}
+
+**Pregunta clave para la IA:**
+
+¿Buscamos crear una máquina con *todas* estas, o solo con una muy específica (ej. lógico-matemática)?
+
+:::
+
+---
+
+## Concepción 3: Inteligencia como Racionalidad (IA)
+
+En el campo de la Inteligencia Artificial, a menudo se usa una definición más pragmática:
+
+**Inteligencia = Racionalidad**
+
+* Un **agente racional** es aquel que actúa para **maximizar un objetivo** (o una medida de rendimiento) esperado.
+* No se enfoca en *cómo* piensa (si "piensa como un humano"), sino en *qué hace* (si actúa óptimamente).
+* Esta es la base de muchos sistemas de IA: desde un termostato hasta un coche autónomo.
+
+---
+
+## Las Bases Biológicas {.smaller}
+
+::: {.columns}
+:::{.column width="50%"}
+![Cómo funciona el cerebro](images/000a_como_funciona_cerebro.png)
+:::
+:::{.column width="50%"}
+La única inteligencia que conocemos tiene una base biológica: **el cerebro**.
+
+* **Sustrato:** El cerebro humano (~1.5 kg).
+* **Unidad Básica:** La **neurona** 🧠. Tenemos aprox. 86 mil millones.
+* **Conexiones:** Las neuronas se conectan mediante **sinapsis**.
+* **Aprendizaje:** El aprendizaje ocurre (en parte) fortaleciendo o debilitando estas conexiones sinápticas (plasticidad cerebral).
+:::
+:::
+
+---
+
+## De lo Biológico a lo Artificial
+
+Esta estructura biológica es la *inspiración* directa para una de las ramas más importantes de la IA:
+
+* **Inteligencia Biológica:** Redes de neuronas biológicas.
+* **Inteligencia Artificial:** **Redes Neuronales Artificiales (RNAs)**.
+
+Las RNAs son modelos matemáticos inspirados en el cerebro, que "aprenden" ajustando "pesos" numéricos (análogos a las sinapsis) a medida que procesan datos.
+
+---
+
+## ¿Por qué importa esto para un curso de IA?
+
+Definir la inteligencia da forma a nuestros objetivos:
+
+1.  **¿Queremos que actúe desde la autoconciencia?** (IA Fuerte, "Contar con un modelo de pensamiento").
+2.  **¿Queremos resolver tareas específicas?** (IA Débil, "Actuar racionalmente").
+
+. . .
+
+En este curso, exploraremos principalmente la **ruta 2**, construyendo agentes racionales que aprenden y resuelven problemas.
+
+---
+
+## Referencias Clave
+
+* Russell, S., & Norvig , P. (2021). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson. (Especialmente Cap. 1).
+* Gardner, H. (1983). *Frames of Mind: The Theory of Multiple Intelligences*. Basic Books.
+* Poole, D. L., & Mackworth, A. K. (2017). *Artificial Intelligence: Foundations of Computational Agents* (2nd ed.). Cambridge University Press.
+
 
 ## Modelo de Inteligencias Múltiples
 

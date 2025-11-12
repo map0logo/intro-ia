@@ -16,7 +16,8 @@ lang: es
 lightbox: true
 ---
 
-# Módulo I  
+# Módulo I
+
 ### Fundamentos Históricos y Conceptuales de la Inteligencia Artificial
 
 ## Objetivo General
@@ -38,9 +39,29 @@ Comprender los fundamentos históricos, filosóficos y conceptuales que dieron o
 
 - De mitos a máquinas: el sueño de la máquina pensante.  
 - Dualismo vs. Materialismo.  
-- Formalismos lógicos: Aristóteles, Boole, Turing, von Neumann, Shannon.  
+- Formalismos lógicos: Aristóteles, Boole, Turing, von Neumann, Shannon.
 - Definiciones de IA, ML, DL.  
 - Evolución histórica de la IA.
+
+---
+
+## Programación  1.1
+
+**Duración:** Semanas 1–4 (10 noviembre – 1 diciembre 2025)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **1** | 10 nov | Presentación del curso. Panorama general de la IA. | Conversatorio inicial, diagnóstico y lectura guiada. | — |
+| **2** | 17 nov | Mitos, filosofía y formalismos lógicos. | Análisis de textos clásicos; mapa conceptual. | — |
+
+## Programación 1.2
+
+**Duración:** Semanas 1–4 (10 noviembre – 1 diciembre 2025)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **3** | 24 nov | Evolución histórica y Test de Turing. | Debate: “¿Puede pensar una máquina?” | — |
+| **4** | 1 dic | IA vs ML vs DL; cambio de paradigma. | Elaboración de diagrama jerárquico (IA ⊃ ML ⊃ DL). | **Prueba escrita y presentación oral.** |
 
 ---
 
@@ -69,7 +90,7 @@ Comprender los fundamentos históricos, filosóficos y conceptuales que dieron o
   - G. Baños (2024). *El sueño de la inteligencia artificial.*  
   - P. Rodríguez (2018). *Inteligencia Artificial. Cómo cambiará el mundo (y tu vida).*  
 - Videotutoriales y conferencias sobre historia de la IA.  
-- Software de diagramación conceptual: CmapTools, Miro, Lucidchart.  
+- Software de diagramación conceptual: Mermaid, Graphviz, Quiver, Penrose, Manim, AnimathIO.  
 - Artículos de divulgación sobre los orígenes y evolución de la IA.  
 
 # Módulo II  
@@ -86,7 +107,7 @@ Conocer los principales paradigmas de aprendizaje, algoritmos y arquitecturas de
 
 - Reconocer los tipos de aprendizaje (supervisado, no supervisado, refuerzo).  
 - Describir y aplicar algoritmos representativos (Regresión, Clasificación, Agrupamiento).  
-- Distinguir entre **Machine Learning** y **Deep Learning**.  
+- Distinguir entre **Machine Learning** y **Deep Learning**.
 - Comparar arquitecturas de redes neuronales (CNN, RNN, Transformers).
 
 ---
@@ -97,6 +118,28 @@ Conocer los principales paradigmas de aprendizaje, algoritmos y arquitecturas de
 - Principio y propósito de algoritmos base: Regresión Lineal, KNN, K-Medias.  
 - Diferencias ML vs. DL: feature engineering, datos, cómputo, arquitectura.  
 - Introducción a redes neuronales: CNN, RNN, Transformers.
+
+---
+
+## Programación 2.1
+
+**Duración:** Semanas 5–8 (8 diciembre 2025 – 26 enero 2026)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **5** | 8 dic | Tipos de aprendizaje y problemas en IA. | Discusión y clasificación de casos. | — |
+| **6** | 12 ene | Algoritmos base: Regresión, Clasificación y Agrupamiento. | Laboratorio en Python (scikit-learn). | — |
+
+> **Receso académico:** 15 de diciembre al 11 de enero de 2026
+
+##  Programación 2.2
+
+**Duración:** Semanas 5–8 (8 diciembre 2025 – 26 enero 2026)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **7** | 19 ene | Machine Learning vs Deep Learning. | Debate guiado y glosario ilustrado. | **Informe de laboratorio.** |
+| **8** | 26 ene | Arquitecturas de redes neuronales: CNN, RNN, Transformers. | Taller práctico y exposición. | **Presentación comparativa.** |
 
 ---
 
@@ -119,8 +162,8 @@ Conocer los principales paradigmas de aprendizaje, algoritmos y arquitecturas de
 ## Recursos
 
 - Jupyter Notebook / Google Colab.  
-- Lenguajes y librerías: Python, scikit-learn, pandas, NumPy, Matplotlib.  
-- Datasets de práctica: *Iris*, *Boston Housing*, *MNIST*.  
+- Lenguajes y bibliotecas: Python, scikit-learn, pandas, NumPy, Matplotlib.  
+- Datasets de práctica: *Palmer Penguins*, *A Housing*, *MNIST*.  
 - Referencias:  
   - A. Géron (2019). *Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow.*  
   - C. M. Bishop (2016). *Pattern Recognition and Machine Learning.*  
@@ -156,6 +199,31 @@ Analizar los conocimientos técnicos adquiridos para comprender y evaluar las et
 - Diseño de arquitecturas CNN, RNN y Transformers para casos prácticos.
 
 ---
+
+---
+
+## Programación 3.1
+
+**Duración:** Semanas 9–12 (2 febrero – 2 marzo 2026)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **9** | 2 feb | Etapas del ciclo de vida de un proyecto de IA. | Discusión de estudios de caso. | — |
+| **10** | 9 feb | Diseño e implementación de modelos. | Práctica en notebooks y métricas. | — |
+
+> **Receso académico:** 16 y 17 de febrero carnaval
+
+
+## Programación 3.2
+
+**Duración:** Semanas 9–12 (2 febrero – 2 marzo 2026)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **11** | 23 feb | Selección de algoritmos y validación. | Análisis crítico de desempeño. | **Prueba escrita y análisis de caso.** |
+| **12** | 2 mar | Documentación técnica y comunicación de resultados. | Elaboración de informe final del módulo. | **Informe de laboratorio.** |
+
+--
 
 ## Actividades de Aprendizaje
 
@@ -214,6 +282,27 @@ Evaluar de manera crítica las implicaciones éticas, legales, sociales y geopol
 
 ---
 
+## Programación 4.1
+
+**Duración:** Semanas 13–16 (9 marzo - 6 abril 2026)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **13** | 9 mar | Dilemas éticos: sesgo, privacidad y transparencia. | Análisis de casos reales. | — |
+| **14** | 16 mar | Regulación global de la IA (GDPR, AI Act). | Seminario comparativo. | **Ensayo argumentativo.** |
+
+
+## Programación 4.2
+
+**Duración:** Semanas 13–16  (9 marzo - 6 abril 2026)
+
+| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
+|:-:|:-:|:---|:---|:--|
+| **15** | 23 mar | Geopolítica de la IA y soberanía tecnológica. | Debate: “IA como poder global”. | **Presentación oral.** |
+| **16** | 6 abr | Futuro, sostenibilidad y responsabilidad profesional. | Mesa redonda final. | **Proyecto integrador.** |
+
+> **Receso académico:** 30 de marzo al 5 de abril 2026, semana santa
+
 ## Actividades de Aprendizaje
 
 - Discusión guiada de dilemas éticos.  
@@ -258,109 +347,18 @@ Evaluar de manera crítica las implicaciones éticas, legales, sociales y geopol
 
 ## Cronograma General
 
-- 18 Semanas — 4 horas académicas por semana  
+- 18 Semanas — 4 horas académicas por semana
  - Inicio: Lunes 10 de noviembre de 2025  
- - Finalización: Lunes 9 de marzo de 2026
+ - Finalización: ¿13 de abril o 20 de abril?
 
----
+## Semanas 17 y 18
 
-## Módulo I
-
-### Fundamentos Históricos y Conceptuales de la Inteligencia Artificial  
-
-**Duración:** Semanas 1–4 (10 noviembre – 1 diciembre 2025)
-
-| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
-|:-:|:-:|:---|:---|:--|
-| **1** | 10 nov | Presentación del curso. Panorama general de la IA. | Conversatorio inicial, diagnóstico y lectura guiada. | — |
-| **2** | 17 nov | Mitos, filosofía y formalismos lógicos. | Análisis de textos clásicos; mapa conceptual. | — |
-
-
-## Módulo I
-
-### Fundamentos Históricos y Conceptuales de la Inteligencia Artificial  
-
-**Duración:** Semanas 1–4 (10 noviembre – 1 diciembre 2025)
-
-| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
-|:-:|:-:|:---|:---|:--|
-| **3** | 24 nov | Evolución histórica y Test de Turing. | Debate: “¿Puede pensar una máquina?” | — |
-| **4** | 1 dic | IA vs ML vs DL; cambio de paradigma. | Elaboración de diagrama jerárquico (IA ⊃ ML ⊃ DL). | **Prueba escrita y presentación oral.** |
-
-## Módulo II
-
-### Paradigmas, Algoritmos y Herramientas Centrales
-
-**Duración:** Semanas 5–8 (8 diciembre – 29 diciembre 2025)
-
-| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
-|:-:|:-:|:---|:---|:--|
-| **5** | 8 dic | Tipos de aprendizaje y problemas en IA. | Discusión y clasificación de casos. | — |
-| **6** | 15 dic | Algoritmos base: Regresión, Clasificación y Agrupamiento. | Laboratorio en Python (scikit-learn). | — |
-
-> **Receso académico:** 22 de diciembre al 10 de enero de 2026
-
-## Módulo II  
-### Paradigmas, Algoritmos y Herramientas Centrales  
-**Duración:** Semanas 5–8 (8 diciembre – 29 diciembre 2025)
-
-| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
-|:-:|:-:|:---|:---|:--|
-| **7** | 12 ene | Machine Learning vs Deep Learning. | Debate guiado y glosario ilustrado. | **Informe de laboratorio.** |
-| **8** | 19 ene | Arquitecturas de redes neuronales: CNN, RNN, Transformers. | Taller práctico y exposición. | **Presentación comparativa.** |
-
-
----
-
-## Módulo III  
-### Ciclo de Vida del Proyecto de IA  
-**Duración:** Semanas 9–12 (19 enero – 9 febrero 2026)
-
-| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
-|:-:|:-:|:---|:---|:--|
-| **9** | 26 ene | Etapas del ciclo de vida de un proyecto de IA. | Discusión de estudios de caso. | — |
-| **10** | 2 feb | Diseño e implementación de modelos. | Práctica en notebooks y métricas. | — |
-
-
-## Módulo III  
-### Ciclo de Vida del Proyecto de IA  
-**Duración:** Semanas 9–12 (19 enero – 9 febrero 2026)
-
-| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
-|:-:|:-:|:---|:---|:--|
-| **11** | 9 feb | Selección de algoritmos y validación. | Análisis crítico de desempeño. | **Prueba escrita y análisis de caso.** |
-| **12** | 16 feb | Documentación técnica y comunicación de resultados. | Elaboración de informe final del módulo. | **Informe de laboratorio.** |
-
----
-
-## Módulo IV  
-### Implicaciones Éticas, Sociales y Futuro de la IA  
-**Duración:** Semanas 13–17 (16 febrero – 9 marzo 2026)
-
-| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
-|:-:|:-:|:---|:---|:--|
-| **13** | 23 feb | Dilemas éticos: sesgo, privacidad y transparencia. | Análisis de casos reales. | — |
-| **14** | 2 mar | Regulación global de la IA (GDPR, AI Act). | Seminario comparativo. | **Ensayo argumentativo.** |
-
-
-## Módulo IV  
-### Implicaciones Éticas, Sociales y Futuro de la IA  
-**Duración:** Semanas 13–17 (16 febrero – 9 marzo 2026)
-
-| Semana | Fecha | Temas Principales | Actividades de Aprendizaje | Evaluaciones |
-|:-:|:-:|:---|:---|:--|
-| **15** | 9 mar | Geopolítica de la IA y soberanía tecnológica. | Debate: “IA como poder global”. | **Presentación oral.** |
-| **16** | 16 mar | Futuro, sostenibilidad y responsabilidad profesional. | Mesa redonda final. | **Proyecto integrador.** |
-
-## Semana 18  
-### Cierre del Curso — 30 marzo 2026
+### Cierre del Curso 
 
 | Semana | Fecha | Actividades | Evaluaciones |
 |:--:|:--:|:--|:--|
-| **17** | 23 mar | Retroalimentación final, revisión de proyectos, cierre reflexivo. | **Entrega definitiva del Proyecto Final Integrador.** |
-| **18** | 30 mar | Retroalimentación final, revisión de proyectos, cierre reflexivo. | **Entrega definitiva del Proyecto Final Integrador.** |
-
-
+| **17** | 13 abr | Retroalimentación final, revisión de proyectos, cierre reflexivo. | **Entrega definitiva del Proyecto Final Integrador.** |
+| **18** | 20 abr | Retroalimentación final, revisión de proyectos, cierre reflexivo. | **Entrega definitiva del Proyecto Final Integrador.** |
 
 ## Referencias Fundamentales
 
